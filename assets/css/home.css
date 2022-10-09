@@ -217,3 +217,36 @@ label{
     text-align: center;
 }
 
+@media screen and (max-width : 700px){
+    #search-bar{
+        margin-left: 0px;
+    }
+
+    #name-input{
+        width: 200px;
+    }
+
+    #nav-bar{
+        flex-direction: column;
+        
+    }
+
+    #nav-bar .nav-items{
+        display: none;
+    }
+
+    #ham-btn{
+        display: block;
+    }
+
+    #heading-main{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width : 360px){
+    
+    #name-input{
+        width: 150px;
+    }
+}
